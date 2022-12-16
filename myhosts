@@ -1,2 +1,12 @@
+
+[mywebservers]
 172.31.45.33
 172.31.19.229
+
+[myapplicationwebservers]
+172.31.45.35
+172.31.19.29
+
+[myDBservers]
+172.31.45.34
+172.31.19.22
