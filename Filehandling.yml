@@ -15,7 +15,12 @@
        src: mysorce.txt
        dest: /home/ubuntu/mycopyfile
 
-   - name: I want to install apache2
+   - name: I want to install apache2 on nodes
      apt:
        name: apache2
        state: present
+  
+   - name: I want to copy dynamic files into node side
+     template:
+      src: myindex.j2
+      dest: /var/www/html/index.html
