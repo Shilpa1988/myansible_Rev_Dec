@@ -14,3 +14,8 @@
      copy:
        src: mysorce.txt
        dest: /home/ubuntu/mycopyfile
+
+   - name: I want to install apache2
+     apt:
+       name: apache2
+       state: present
