@@ -22,8 +22,8 @@
     
    - name: dowload the remote file from Internet
      get_url:
-     url: https://maha22aug22.s3.us-east-2.amazonaws.com/mahaLogin.war
-     dest: /home/ubuntu/shilpalogin.war
+      url: https://maha22aug22.s3.us-east-2.amazonaws.com/mahaLogin.war
+      dest: /home/ubuntu/shilpalogin.war
      force_basic_auth: yes
   
    - name: I want to copy dynamic files into node side
