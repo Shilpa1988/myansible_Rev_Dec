@@ -7,7 +7,7 @@
    myvar3: wget
 
   tasks:
-  - name: I want to display my variable one only
+  - name: I want to display my variable two only
     debug: 
-     msg: "{{myvar1}}"
-     
+     msg: "{{myvar2}}"
+
